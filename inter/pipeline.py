@@ -52,7 +52,7 @@ pipeline = Pipeline(steps=[
     ('model', RandomForestRegressor(n_estimators=100, random_state=0))
 ])
 
-# Treinando o Pipeline
+# Treinando o Pipeline 
 pipeline.fit(X_train, y_train)
 
 # Fazendo previsões no conjunto de teste

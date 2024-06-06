@@ -2,7 +2,8 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from sklearn.model_selection import train_tfrom sklearn.tree import DecisionTreeRegressorest_split
+from sklearn.model_selection import train_t
+from sklearn.tree import DecisionTreeRegressorest_split
 from sklearn.metrics import mean_absolute_error
 
 data = {
